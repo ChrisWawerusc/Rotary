@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/styles2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page2">
+        <header>
+          <img src="/images/rotaryimg.png" alt="" height="60px" width="150px" style="position: relative; right: 20px;">
+          <img src="/images/srally.jpeg" alt="" height="70px" width="150px" style="position: relative; left: 20px;">
+        </header>
+        <div class="shopping">
+          <div class="shirts">
+            <div class="tophalf">
+                <div class="sht1" id="shtclk"></div>
+                <div class="sht2" id="shtclr"></div>
+            </div>
+            <div class="btmhalf">
+                <div class="sizes">
+                    <h5>Please pick a size</h5>
+                    <ul style="list-style: none; line-height: 30px;">
+                        <li>
+                            <label for="sm" style="cursor: pointer;">Small <input type="radio" name="size" id="sm" style="cursor: pointer;"></label>
+                        </li>
+                        <li>
+                            <label for="sm" style="cursor: pointer;">Medium <input type="radio" name="size" id="md" style="cursor: pointer;"></label>
+                        </li>
+                        <li>
+                            <label for="lg" style="cursor: pointer;">Large <input type="radio" name="size" id="lg" style="cursor: pointer;"></label>
+                        </li>
+                        <li>
+                            <label for="xg" style="cursor: pointer;">Extra Large <input type="radio" name="size" id="xg" style="cursor: pointer;"></label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="colors">
+                    <h5 style="text-align: center;">Please select a shirt color</h5>
+                    <button id="red" style="background-color: red;"></button>
+                    <button id="white" style="background-color: white;"></button>
+                    <button id="black" style="background-color: black;"></button>
+                </div>
+            </div>
+          </div>
+          <div class="chkout">
+            <div class="cont2">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your phone number</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+254 *** *** ***">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your delivery location</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E.g 'Nairobi'">
+                </div>
+            </div>
+            <div class="rept">
+                <div class="quan">
+                    <h4 id="desc"></h4>
+                    <h5 id="price"></h5>
+                    <p>Please select the number of T-shirts</p>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="total">
+                    <p>Your total is:</p>
+                    <button>Proceed to checkout</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  <script src="/javascript/chkout.js"></script>
+</body>
+</html>

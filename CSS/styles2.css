@@ -1,0 +1,116 @@
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   border-bottom: 3px black solid;
+}
+.shopping{
+    height: 90%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.shirts{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.tophalf{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+}
+.btmhalf{
+    height: 50%;
+    width: 100%;
+    background-color: transparented;
+    display: flex;
+}
+.sht1{
+    width: 30%;
+    height: 70%;
+    background-color: transparent;
+}
+.sht2{
+    width: 50%;
+    height: 100%;
+    background-color: black; 
+}
+.inputs{
+    width: 40%;
+    height: 30%;
+    background-color: transparent; 
+} 
+.sizes{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.colors{
+   background-color: transparent;
+    height: 30%;
+    width: 40%;
+    margin: auto;
+}
+.colors button{
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.chkout{
+    width: 50%;
+    height: 100%;
+    /* background-image: url(/images/pexels-polina-tankilevitch-4440794.jpg);
+    background-size: cover; */
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.cont2{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+.rept{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.quan{
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+.total{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total button{
+    height: 50px;
+    width: 20%;
+    border-radius: 10px;
+    /* background-image: url(/images/plain\ white\ cotton\ t-shirt\ short.jpg); */
+}
