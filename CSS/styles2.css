@@ -78,8 +78,6 @@ header{
 .chkout{
     width: 50%;
     height: 100%;
-    /* background-image: url(/images/pexels-polina-tankilevitch-4440794.jpg);
-    background-size: cover; */
     background-color: transparent;
     display: flex;
     flex-direction: column;

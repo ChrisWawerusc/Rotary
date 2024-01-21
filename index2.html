@@ -68,30 +68,32 @@
             <div class="rept">
                 <div class="quan">
                     <h4 id="desc"></h4>
-                    <h5 id="price"></h5>
+                    <h5>Ksh <span id="price"></span></h5>
                     <p>Please select the number of T-shirts</p>
-                    <select name="" id="">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
-                    </select>
-                    <button>Add to Cart</button>
+                    <input type="number" name="" id="amount" placeholder="How many T-shirts?">
+                    <button id="cart">Add to Cart</button>
                 </div>
                 <div class="total">
-                    <p>Your total is:</p>
-                    <button>Proceed to checkout</button>
+                    <p id="output"></p>
+                    <button id="checkout">Proceed to checkout</button>
+                    <!-- add mpesa prompt fx -->
                 </div>
             </div>
           </div>
         </div>
     </div>
-  <script src="/javascript/chkout.js"></script>
+    
+    <!-- gets total amount to pay -->
+    <!-- <script>
+        document.getElementById("cart").onclick=function(){
+            let num=document.getElementById("amount").value;
+            let money=document.getElementById("price").value;
+            let final= num*money;
+            document.getElementById("output").innerText=`Your order of ${num} T-shirts has been received and the total amount to pay is Ksh ${final}.`;
+
+        }
+    </script> -->
+  
+    <script src="/javascript/chkout.js"></script>
 </body>
 </html>

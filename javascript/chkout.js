@@ -24,7 +24,7 @@ switch(selectedItem){
      document.getElementById("shtclr").style.backgroundImage=`url("${s1.image2}")`;
      document.getElementById("shtclr").style.backgroundSize="cover";
      document.getElementById("desc").innerText="Short Sleeved T-shirt";
-     document.getElementById("price").innerText="Ksh 500";
+     document.getElementById("price").innerText=500;
      document.getElementById("red").onclick=function(){
         document.getElementById("shtclr").style.backgroundImage=`url("${s1.image2}")`;
         document.getElementById("shtclr").style.backgroundSize="cover";
@@ -45,7 +45,7 @@ switch(selectedItem){
         document.getElementById("shtclr").style.backgroundImage=`url("${s2.image2}")`;
         document.getElementById("shtclr").style.backgroundSize="cover";
         document.getElementById("desc").innerText="Long Sleeved T-shirt";
-        document.getElementById("price").innerText="Ksh 1500";
+        document.getElementById("price").innerText=1500;
         document.getElementById("red").onclick=function(){
             document.getElementById("shtclr").style.backgroundImage=`url("${s2.image2}")`;
             document.getElementById("shtclr").style.backgroundSize="cover";
@@ -66,7 +66,7 @@ switch(selectedItem){
        document.getElementById("shtclr").style.backgroundImage=`url("${s3.image2}")`;
        document.getElementById("shtclr").style.backgroundSize="cover";
        document.getElementById("desc").innerText="Breathable Short Sleeved T-shirt";
-       document.getElementById("price").innerText="Ksh 1000";
+       document.getElementById("price").innerText=1000;
        document.getElementById("red").onclick=function(){
         document.getElementById("shtclr").style.backgroundImage=`url("${s3.image2}")`;
         document.getElementById("shtclr").style.backgroundSize="cover";
