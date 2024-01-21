@@ -10,13 +10,13 @@ var shirtThree={
 
 document.getElementById("c1").addEventListener("click", function() {
     // Redirect to the new webpage
-    window.location.href = "/index2.html" + "?" + shirtOne.shirtId; // Replace with your desired URL
+    window.location.href = "/buyers.html" + "?" + shirtOne.shirtId; // Replace with your desired URL
 });
 document.getElementById("c2").addEventListener("click", function() {
     // Redirect to the new webpage
-    window.location.href = "/index2.html" + "?" + shirtTwo.shirtId; // Replace with your desired URL
+    window.location.href = "/buyers.html" + "?" + shirtTwo.shirtId; // Replace with your desired URL
 });
 document.getElementById("c3").addEventListener("click", function() {
     // Redirect to the new webpage
-    window.location.href = "/index2.html" + "?" + shirtThree.shirtId; // Replace with your desired URL
+    window.location.href = "/buyers.html" + "?" + shirtThree.shirtId; // Replace with your desired URL
 });
